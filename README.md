@@ -14,6 +14,7 @@ Before you begin, make sure you have the following prerequisites:
 
 ### Installation
 1. Clone the repository to your local machine:
+   
    ```bash
    git clone https://github.com/Hovo-Alaverdyan/cinema-react.git
 
