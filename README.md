@@ -2,6 +2,8 @@
 
 Welcome to the Cinema React project! This web application allows users to explore and discover their preferred shows, view detailed show descriptions, access information about the cast, and easily navigate to corresponding Wikipedia pages. This README will guide you through the setup and usage of the project.
 
+See: https://Hovo-Alaverdyan.github.io/cinema-react
+
 ## Getting Started
 
 Follow these instructions to get the project up and running on your local machine.
