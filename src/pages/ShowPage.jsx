@@ -21,7 +21,7 @@ export function ShowPage() {
     <div className=" p-8 pt-[9rem]">
       <BsFillArrowLeftSquareFill className=" text-red-600 text-[2rem] cursor-pointer"
         onClick={() => navigate(-1)} />
-      <div className="flex justify-center items-center gap-10">
+      <div className="flex justify-center items-center gap-10 flex-col md:flex-row">
         <img src={show.image?.medium} alt={show.name} />
         <div>
           <div className=" p-2 bg-slate-900 text-white flex justify-between"><span className=" font-bold">Show Name:</span> <span>{show.name}</span></div>
@@ -33,10 +33,10 @@ export function ShowPage() {
       </div>
 
       {
-        <div className=" text-center p-8">
+        <div className="text-center p-8">
           <h2 className=" text-[2rem] text-white">About <span className=" text-red-600">Show</span></h2>
           <div className=" text-white pt-4">{show.summary?.slice(3, -4)}</div>
-          <Link to={'/shows/' + show.id + '/cast/'} className=" bg-red-600 p-2 absolute mt-10 text-white rounded">See Cast</Link>
+          <button onClick={()=>navigate('/shows/' + show.id + '/cast')} className=" bg-red-600 p-2 mt-10 text-white rounded">See Cast</button>
         </div>
       }
 
